@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Dev Portfolio | EP</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Erik Perez<span>.</span></a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#trabajo">TRABAJO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">SOBRE MÍ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <span class="hero-tag animate-up">Full Stack Java Jr. Developer</span>
+                        <h1 class="display-1 mb-4 animate-up">
+                            Acerca de <span class="italic-font text-accent">mí</span> <span class="dot">.</span>
+                        </h1>
+                        <p class="lead hero-desc animate-up">
+                            Especializado en el ciclo de vida completo del software, desde arquitecturas backend robustas hasta interfaces
+                            dinámicas y escalables. Cuento con experiencia práctica liderando la lógica y gestión de datos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="trabajo" class="py-5">
+            <div class="container">
+                <div class="row g-5">
+                    
+                    <div class="col-md-6">
+                        <div class="project-card animate-up">
+                            <div class="img-container">
+                                <img src="imagenes/dd.png" class="project-img" alt="Fenix Laser">
+                                <div class="project-overlay"></div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Fenix Laser Monterrey</h3>
+                                <div class="project-tech-stack">
+                                    <i class="devicon-java-plain-wordmark colored"></i>
+                                    <i class="devicon-spring-plain colored"></i>
+                                    <i class="devicon-javascript-plain colored"></i>
+                                    <i class="devicon-bootstrap-plain colored"></i>
+                                </div>
+                                <p class="project-description">
+                                    Desarrollo de una plataforma integral de E-commerce para servicios de corte láser. Implementé la lógica de cotizaciones automáticas en el backend y una interfaz de usuario minimalista.
+                                </p>
+                                <p class="project-cat">E-COMMERCE / BACKEND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 pt-md-5"> 
+                        <div class="project-card animate-up">
+                            <div class="img-container">
+                                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800" class="project-img" alt="Minimal UI">
+                                <div class="project-overlay"></div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Minimal UI Kit</h3>
+                                <div class="project-tech-stack">
+                                    <i class="devicon-react-original colored"></i>
+                                    <i class="devicon-sass-original colored"></i>
+                                    <i class="devicon-figma-plain colored"></i>
+                                </div>
+                                <p class="project-description">
+                                    Creación de una biblioteca de componentes reutilizables con React. Enfocado en la accesibilidad y el diseño atómico para agilizar el flujo de trabajo de desarrollo frontend.
+                                </p>
+                                <p class="project-cat">DESIGN SYSTEM / REACT</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer id="contacto" class="footer">
+            <div class="container">
+                <p class="text-dim mb-2">¿Tienes un proyecto en mente?</p>
+                <a href="mailto:tuemail@dominio.com" class="contact-link">HABLEMOS →</a>
+                <div class="mt-5 d-flex gap-4">
+                    <a href="#" class="social-link">LINKEDIN</a>
+                    <a href="#" class="social-link">GITHUB</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
