@@ -83,6 +83,15 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.project-tittle{
+
+    font-size: 3rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin: 15px 0;
+    text-align: center; /* O 'justify' si prefieres bloques alineados */
+}
+
 /* Estilos para la descripción del proyecto */
 .project-description {
     font-size: 0.95rem;
