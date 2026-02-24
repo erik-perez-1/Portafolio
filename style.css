@@ -3,7 +3,7 @@
     --bg-color: #101010;
     --text-main: #fefefe;
     --text-dim: #ededed;
-    --accent: #ff8400; /* Cambia este color a tu gusto */
+    --accent: #ff8400; 
     --card-bg: #f8f9fa;
     --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -46,7 +46,6 @@ body {
     margin-left: 2rem;
 }
 
-/* --- HERO SECTION --- */
 .hero {
     padding: 160px 0 80px;
 }
@@ -66,7 +65,7 @@ body {
     line-height: 1.8;
 }
 
-/* --- PROJECT CARDS --- */
+
 .project-card {
     position: relative;
     text-decoration: none;
